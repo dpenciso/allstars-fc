@@ -1,0 +1,43 @@
+body {
+  font-family: "Rajdhani", sans-serif;
+}
+
+@media only screen and (min-width: 992px) {
+  .mobile-nav {
+    display: none;
+  }
+  .custom-nav-color {
+    background-color: white;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .desktop-nav {
+    display: none;
+  }
+}
+
+.header-img {
+  display: flex;
+  justify-content: center;
+}
+
+.header-img img {
+  width: 10%;
+  padding: 1rem 0;
+}
+
+.custom-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.custom-nav ul li {
+  padding: 0 2rem;
+}
+
+.custom-nav-color {
+  background-color: white;
+}
