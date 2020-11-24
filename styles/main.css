@@ -67,11 +67,16 @@ body {
     flex-wrap: wrap;
 }
 
-.ind-principle {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 2rem;
+.motto {
+    text-align: center;
+}
+
+.custom-card {
+    border: none;
+}
+
+.custom-card-body {
+    text-align: center;
 }
 
 .circle-div {
@@ -82,19 +87,14 @@ body {
     display: flex;
     justify-content: center;
     box-shadow: 2px 2px 8px black;
+    margin: 0 auto;
+    margin-bottom: 1rem;
 }
 
 .circle-div i {
     color: white;
     font-size: 5rem;
     align-self: center;
+    
 }
 
-.ind-principle p {
-    text-align: center;
-    padding: 1rem;
-}
-
-.ind-principle h3 {
-    display: block;
-}
