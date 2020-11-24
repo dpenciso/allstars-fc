@@ -3,7 +3,7 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-  .mobile-nav {
+  .mobile {
     display: none;
   }
   .custom-nav-color {
@@ -11,9 +11,14 @@ body {
     border-top: solid black 1px;
     border-bottom: solid black 1px;
   }
+  .carousel-caption h1 {
+    text-shadow: -2px 2px 0 black;
+    font-weight: 700;
+    font-size: 3rem;
+}
 }
 @media only screen and (max-width: 991px) {
-  .desktop-nav {
+  .desktop {
     display: none;
   }
 }
@@ -40,4 +45,10 @@ body {
 
 .custom-nav-color {
   background-color: white;
+}
+
+.carousel-caption h2 {
+    text-shadow: -2px 2px 0 black;
+    font-weight: 700;
+    font-size: 1.5rem;
 }
