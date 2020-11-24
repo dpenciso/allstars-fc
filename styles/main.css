@@ -12,7 +12,7 @@ body {
     border-bottom: solid black 1px;
   }
   .carousel-caption h1 {
-    text-shadow: -2px 2px 0 black;
+    text-shadow: 2px 2px 8px black;
     font-weight: 700;
     font-size: 3rem;
 }
@@ -48,7 +48,53 @@ body {
 }
 
 .carousel-caption h2 {
-    text-shadow: -2px 2px 0 black;
+    text-shadow: 2px 2px 8px black;
     font-weight: 700;
     font-size: 1.5rem;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.main-content h2 {
+    text-align: center;
+}
+
+.principles {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ind-principle {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.circle-div {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: #de0000;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 8px black;
+}
+
+.circle-div i {
+    color: white;
+    font-size: 5rem;
+    align-self: center;
+}
+
+.ind-principle p {
+    text-align: center;
+    padding: 1rem;
+}
+
+.ind-principle h3 {
+    display: block;
 }
