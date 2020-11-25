@@ -2,6 +2,18 @@ body {
   font-family: "Rajdhani", sans-serif;
 }
 
+p {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+li a {
+    font-size: 1.25rem;
+}
+
 @media only screen and (min-width: 992px) {
   .mobile {
     display: none;
@@ -16,6 +28,9 @@ body {
     font-weight: 700;
     font-size: 3rem;
 }
+.custom-hero-title h1 {
+    margin-bottom: 5rem;
+}
 .main-content {
     margin: 0 15rem;
 }
@@ -25,7 +40,13 @@ body {
   .desktop {
     display: none;
   }
+
+  .custom-hero-title h2 {
+      margin-bottom: 0;
+  }
 }
+
+
 
 .header-img {
   display: flex;
@@ -132,9 +153,15 @@ footer {
     justify-content: center;
     color: white;
     padding-top: 1rem;
+    
 }
 
 .footer-text p a {
     text-decoration: none;
     color: white;
+    
+}
+
+.footer-text p {
+    font-size: 1rem;
 }
