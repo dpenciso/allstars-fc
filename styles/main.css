@@ -50,6 +50,10 @@ li a {
     margin-bottom: 11rem;
 }
 
+.clicked-custom-nav-button {
+    margin-bottom: 1rem;
+}
+
 .header-img {
   display: flex;
   justify-content: center;
