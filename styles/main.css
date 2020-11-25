@@ -72,6 +72,10 @@ li a {
   background-color: white;
 }
 
+.custom-nav-image {
+    margin-right: 4rem;
+}
+
 .carousel-caption h2 {
     text-shadow: 2px 2px 8px black;
     font-weight: 700;
