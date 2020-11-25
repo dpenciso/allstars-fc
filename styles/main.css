@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 }
 
 h2 {
@@ -106,8 +106,8 @@ li a {
 
 .circle-div {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #de0000;
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ li a {
 
 .circle-div i {
     color: white;
-    font-size: 5rem;
+    font-size: 4rem;
     align-self: center;
     
 }
