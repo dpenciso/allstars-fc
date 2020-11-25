@@ -178,9 +178,7 @@ footer {
   justify-content: center;
 }
 
-.minimized-form {
-    height: 400;
-}
+
 
 @media only screen and (min-width: 992px) {
   .mobile {
@@ -215,4 +213,7 @@ footer {
   .ind-teams {
     width: 50%;
   }
+  .tryout-teams {
+    padding: 0 5rem;
+}
 }
