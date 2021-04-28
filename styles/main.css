@@ -14,6 +14,29 @@ li a {
   font-size: 1.25rem;
 }
 
+.register-button {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.custom-register {
+  background-color: #de0000;
+  border: #de0000;
+}
+
+.custom-register:hover {
+  background-color: black;
+  border: black;
+  color: white;
+}
+
+.custom-register:focus {
+  background-color: black;
+  border: black;
+  color: white;
+}
+
 @media only screen and (max-width: 991px) {
   .desktop {
     display: none;
