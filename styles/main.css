@@ -201,6 +201,14 @@ footer {
   justify-content: center;
 }
 
+.custom-margin-top {
+  margin-top: 1rem;
+}
+
+.center-text {
+  text-align: center;
+}
+
 
 
 @media only screen and (min-width: 992px) {
