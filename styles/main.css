@@ -20,6 +20,16 @@ li a {
   margin: 2rem;
 }
 
+.tryout-address {
+  text-decoration: none;
+  color: black;
+}
+
+.tryout-address:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .custom-register {
   background-color: #de0000;
   border: #de0000;
