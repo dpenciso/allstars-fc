@@ -30,6 +30,16 @@ li a {
   color: black;
 }
 
+.academy-address {
+  text-decoration: underline;
+  color: black;
+}
+
+.academy-address:hover {
+  text-decoration: none;
+  color: black;
+}
+
 .custom-register {
   background-color: #de0000;
   border: #de0000;
